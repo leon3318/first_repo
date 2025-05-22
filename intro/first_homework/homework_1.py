@@ -19,8 +19,8 @@ Year = 2025
 print("Вам " + str(Year - YearOfBirth) + " лет")
 
 # 4 Приветствие по имени
-name = str(input("Введите своё имя: "))
-surname = str(input("Введите свою фамилию: "))
+name = input("Введите своё имя: ")
+surname = input("Введите свою фамилию: ")
 
 print("Привет, " + name + " " + surname)
 
@@ -29,8 +29,8 @@ weight = float(input("Введите вес кота: "))
 print("Ваш кот весит: " + str(weight) + " кг - это очень мило!")
 
 # 6 День рождения
-day = str(input("Введите день твоего рождения: "))
-month = str(input("Введите месяц твоего рождения: "))
+day = input("Введите день твоего рождения: ")
+month = input("Введите месяц твоего рождения: ")
 
 print("Ты родился " + " " + day + " " + month)
 
@@ -52,5 +52,5 @@ result_3 = round(100 / amount, 2)
 print("Каждый получит по " + str(result_3) + " рубля")
 
 # 10 Удвоитель слов
-word = str(input("Введите любое слово: "))
+word = input("Введите любое слово: ")
 print((word + " ")*2)
