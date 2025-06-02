@@ -70,7 +70,6 @@ else:
 
 # 10 Задача про палиндром
 str_3 = input("Введите строку: ").upper().strip()
-print(str_3)
 if str_3[::-1] == str_3:
     print("Это палиндром!")
 else:
